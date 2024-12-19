@@ -1,0 +1,124 @@
+/* BODY */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+body{background-color: white;}
+*{margin: 0%; line-height: 1.6em;}
+
+/* BANNER  */
+#banner {position: relative; width: 100%; overflow: hidden;}
+#banner img{width: 100%; height:auto; object-fit: cover;}
+.bannercontent{color:rgb(255, 255, 255);position:  absolute; top: 10%; padding-left: 5%; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; text-decoration: none;}
+/* .bannercontent  :visited {color: white; text-decoration: none;} */
+/* NAVIGATION */
+nav{ margin: -4px; background-color: #79FF82; padding-bottom: 30px;}
+nav{text-align: center;}
+nav ul{list-style: none; display:flex; justify-content: right; padding-right: 20px;}
+nav ul li{margin:0 1.6em; padding-top: 25px}
+nav li a{text-decoration: none; color: black; font-weight: bold; font-size: 20px; }
+.active{padding: 10px; color:#02741A;background-color: white;border-radius: 10px;border-style: outset ;}
+nav li :hover{ background-color: #98E0A3;}
+
+/* HOME PAGE CONTENT */
+
+.Home_content{width: 65%; float: left; background-color: rgb(235, 251, 231);}
+
+h1{margin-top: 20px; padding: 10px; text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 30px;}
+h2{margin-top: 25px; padding: 10px; text-align: left; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;}
+
+h3{margin-top: 25px; padding: 10px; text-align: left; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: 20px;}
+h4{font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 20px; padding:20px;}
+.Home_img{width: 35%;height: auto; float: right; margin-top: 30px;}
+
+.spaced{display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;}
+
+.homep{text-align: center; font-size:  25px; padding:20px; font-family:Georgia, 'Times New Roman', Times, serif; color: rgb(51, 121, 61);}
+
+p{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 15px; padding-left: 10px;}
+.content_list{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: 15px; padding-left: 25px ;padding-top: 10px;list-style-type: circle ;}
+
+
+/* INCENTIVE */
+.Incentive_img{width: 35%; float: left; display: flex;justify-content: center;margin-top: 30px;}
+    .Incentive_img img{width: 300px;}
+
+.Incentive{width:65%; float: right; text-align: left;box-sizing: border-box; padding-right: 30px;}
+
+
+.Land{width:65%; float: right; text-align: left;box-sizing: border-box; padding-left: 0px;margin-top: 30px;}
+
+.Land_img{width: 35%; float: left; display: flex;justify-content: center; align-items: center; margin-top: 60px;}
+.Land_img img{width: 300px;}
+
+/* ABOUT/CONTACT */
+.About{margin: 2% 5% 2% 5%; padding: 15px; background-color: #EBFBE7;}
+
+iframe {width: 100%; height: 450px; border: none;border-radius: 20px; padding-top: 30px;}
+
+
+
+button{align-content: center;padding: 5px 20px 5px 20px;background-color: rgb(220, 255, 213); border-radius: 20px;border-color: aliceblue; margin-top: 1%;}
+button a{color: rgb(0, 0, 0); text-decoration: none;}
+.pagelogin{padding-top: 20px; text-align: center;}
+
+
+label{color: rgb(43, 43, 43);font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+
+input{ background-color: rgb(244, 255, 255); width: 100%; height: 30px; border-style:ridge; border-radius: 20px; padding-left: 20px;}
+.container{margin-left: 20%; margin-right: 20%; background-color: white; padding:0px 40px 40px 40px;}
+.enterinfo{width: 40%; padding-left: 20px; border-radius: 10px}
+
+
+/* GRID */
+.grid-container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    gap: 30px; /* Spacing between grid items */
+    padding: 20px;
+    background-color: white;} 
+    
+    .grid-1{grid-row: 1 /4; grid-column: 1 / 8; background-color: #EBFBE7; padding: 10px;}
+
+    .grid-1-img{ grid-row:1/ 4; grid-column:8 /11 ; 
+        width: 100%; height: auto; background-color: #EBFBE7;}
+        .grid-1-img img{width: 150%; height: auto;}
+
+.grid-2{grid-row: 4/ 6 ; grid-column:1 / 8; background-color: #EBFBE7; padding: 10px;}
+
+.grid-2-img{grid-row:4/ 6; grid-column:8 /11 ; 
+    width: 100%; height: auto; background-color: #EBFBE7;}
+    .grid-2-img img{width: 100%; height: auto; }
+
+    .grid-3{grid-row: 6 /8; grid-column: 1 / 8; background-color: #EBFBE7; padding: 10px;}
+    .grid-3-img{grid-row:6/ 8; grid-column:8 /11 ; 
+        width: 100%; height: auto; background-color: #EBFBE7;}
+    .grid-3-img img {width: 100%; height: auto;}
+    .login-arg{grid-row: 9/10; grid-column: 6/8;text-align: center;}
+
+
+    /* Testimonial */
+    .Review{text-align: center;}
+    .grid-review-container{display: grid; grid-template-columns: 100px 100px 100px 100px  100px 100px 100px; 
+        grid-template-rows:100px 100px 100px; gap:40px; background-color:#EBFBE7; padding: 50px; }
+
+    .enter-review{grid-row: 1/3; grid-column: 1/4; background-color: white;}
+.ent-rev-info{ border-radius: 10px; width: 50%;}
+
+.testimonial-1{
+    display: grid;
+    grid-row: 1/3; grid-column: 4/7; background-color: white; border-radius: 20px; border-color: black ;}
+      
+.testimonial-2{
+        display: grid;
+        grid-row: 1/3; grid-column: 7/10; background-color: white; border-radius: 20px; border-color: black ;}
+
+.star p{text-align: center;}
+
+/* FOOTER  */
+footer{clear: both; background-color: gray; padding: 10px;text-align: center; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; font-size: 15px;}
